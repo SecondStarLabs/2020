@@ -1,9 +1,9 @@
 /pages/index.vue
 <template>
-  <div>
+  <main>
     <about-me />
     <say-hello />
-  </div>
+  </main>
 </template>
 
 <script>

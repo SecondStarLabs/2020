@@ -1,9 +1,9 @@
 <template>
-  <main>
+  <div>
     <app-navigation />
     <nuxt />
     <the-footer />
-  </main>
+  </div>
 </template>
 
 <script>
@@ -27,12 +27,14 @@ html {
   font-style: normal;
   font-size: 16px;
   word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #141618;
   color: #eee;
-}
-html {
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
+  font-display: swap;
 }
 </style>

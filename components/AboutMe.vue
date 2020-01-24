@@ -83,15 +83,21 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
-section {
-  width: 100vw;
-  background: url(https://sarahdrasnerdesign.com/france.svg) 50% no-repeat;
-  background-size: cover;
-  padding: 100px;
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
 }
 
 section {
-  padding: 8vmin;
+  width: 100vw;
+  height: 700px;
+  background: url(https://sarahdrasnerdesign.com/france.svg) 50% no-repeat
+    #141618;
+  background-size: auto;
+  background-size: cover;
+  padding: 100px;
 }
 
 .logo,
@@ -116,13 +122,22 @@ h2 {
 }
 
 .about {
+  width: 45vw;
+  padding: 40px 40px 80px;
   background: rgba(0, 0, 0, 0.4);
   line-height: 1.7;
   border-left: 1px solid rgba(255, 255, 0, 0.3);
 }
-.about {
-  padding: 6vmin 6vmin 10vmin !important;
-  width: calc(90vw - 8vmin);
+
+@media screen and (max-width: 1200px) {
+  section {
+    padding: 8vmin;
+    height: auto;
+  }
+  .about {
+    padding: 6vmin 6vmin 10vmin !important;
+    width: calc(90vw - 8vmin);
+  }
 }
 
 img {
@@ -174,16 +189,5 @@ p {
   opacity: 0.5;
   -webkit-transition: all 0.25s ease;
   transition: all 0.25s ease;
-}
-
-@media screen and (max-width: 1200px) {
-  section[data-v-8dc91124] {
-    padding: 8vmin;
-    height: auto;
-  }
-  .about {
-    padding: 6vmin 6vmin 10vmin !important;
-    width: calc(90vw - 8vmin);
-  }
 }
 </style>

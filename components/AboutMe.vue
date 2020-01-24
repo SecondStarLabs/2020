@@ -177,17 +177,9 @@ p {
 }
 
 @media screen and (max-width: 1200px) {
-  section {
+  section[data-v-8dc91124] {
     padding: 8vmin;
-  }
-  .about {
-    padding: 6vmin 6vmin 10vmin !important;
-    width: calc(90vw - 8vmin);
-  }
-}
-@media screen and (max-width: 500px) {
-  section {
-    padding: 8vmin;
+    height: auto;
   }
   .about {
     padding: 6vmin 6vmin 10vmin !important;

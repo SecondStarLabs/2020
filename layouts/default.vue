@@ -1,90 +1,38 @@
 <template>
-  <div>
+  <main>
     <app-navigation />
-    <nuxt/>
-  </div>
+    <nuxt />
+    <the-footer />
+  </main>
 </template>
 
 <script>
-import AppNavigation from '~/components/AppNavigation.vue'
+import AppNavigation from "~/components/AppNavigation.vue";
+import TheFooter from "~/components/TheFooter.vue";
 
 export default {
   components: {
-    AppNavigation
+    AppNavigation,
+    TheFooter
   }
-}
+};
 </script>
 
 
 <style>
-body {
-  background: #1d3557;
-  color: white;
-  font-family: 'Lora', serif;
-  margin: 20px;
-}
-
 html {
+  font-family: Mercury Display A, Mercury Display B, -apple-system,
+    BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 16px;
   word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
+  color: #eee;
 }
-
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  margin: 0;
-}
-
-a,
-a:visited,
-a:active {
-  color: white;
-  text-decoration: none;
-}
-
-button {
-  margin-bottom: 10px;
-  background: #43aa8b;
-  border: 0;
-  cursor: pointer;
-  padding: 6px 8px;
-  font-size: 13px;
-}
-
-.container {
-  text-align: center;
-  font-size: 20px;
-  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
-}
-
-.page-enter-active {
-  transition: opacity 0.25s ease-out;
-}
-
-.page-leave-active {
-  transition: opacity 0.25s ease-in;
-}
-
-.page-enter,
-.page-leave-active {
-  opacity: 0;
-}
-
-.slide-left-enter,
-.slide-right-leave-active {
-  opacity: 0;
-  transform: translate(20px, 0);
-}
-
-.slide-left-leave-active,
-.slide-right-enter {
-  opacity: 0;
-  transform: translate(-20px, 0);
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
 }
 </style>

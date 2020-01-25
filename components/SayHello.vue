@@ -3,7 +3,14 @@
     <div class="formarea">
       <h2>Say Hello</h2>
       <br />
-      <form netlify name="contact" method="POST" netlify-honeypot="bot-field" style="color: white;">
+      <form
+        netlify
+        action="/thanks"
+        name="contact"
+        method="POST"
+        netlify-honeypot="bot-field"
+        style="color: white;"
+      >
         <p class="hidden">
           <label style="color: white;">
             Don’t fill this out if you're human:

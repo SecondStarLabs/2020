@@ -3,7 +3,7 @@
     <div class="formarea">
       <h2>Say Hello</h2>
       <br />
-      <form name="contact" method="POST" netlify-honeypot="bot-field" style="color: white;">
+      <form netlify name="contact" method="POST" netlify-honeypot="bot-field" style="color: white;">
         <p class="hidden">
           <label style="color: white;">
             Don’t fill this out if you're human:
@@ -14,7 +14,7 @@
           <label for="name" style="color: white;">
             Name
             <br />
-            <input id="name" type="name" name="name" />
+            <input id="name" type="name" name="name" required />
           </label>
         </p>
         <!---->
@@ -22,7 +22,7 @@
           <label for="email" style="color: white;">
             Email
             <br />
-            <input id="email" type="email" name="email" />
+            <input id="email" type="email" name="email" required />
           </label>
         </p>
         <!---->

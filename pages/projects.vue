@@ -769,7 +769,60 @@ li,
   font-size: 18px;
 }
 
-a,
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+  -webkit-appearance: button;
+}
+
+button,
+label {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 13px;
+}
+button {
+  background: 0 0;
+  border: 1px solid #7f7ff8;
+  color: #7f7ff8;
+  border-radius: 1000px 1000px;
+  padding: 10px;
+  width: 100%;
+  font-family: Gotham XNarrow A, Gotham XNarrow B, -apple-system,
+    BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  cursor: pointer;
+  outline: 0;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button {
+  margin: 15px 0;
+  color: #ec633a;
+}
+button,
+button :hover {
+  border: 1px solid #ec633a;
+}
+button :hover {
+  background: #ec633a;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  line-height: 1.15;
+}
+
+a a,
 a:active,
 a:visited,
 p a,

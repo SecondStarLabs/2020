@@ -917,4 +917,37 @@ h1 {
     margin-left: -30px;
   }
 }
+
+/* github  */
+
+table {
+  border-collapse: collapse;
+}
+
+tr {
+  transition: all 0.15s ease;
+}
+
+td,
+th {
+  border-bottom: 1px solid #4b4a4a;
+  padding: 0.8rem 0;
+  text-align: left;
+}
+
+.github h3 {
+  padding-bottom: 5px;
+  font-size: 25px;
+}
+
+a,
+a:active,
+a:visited,
+p a,
+p a:active,
+p a:visited {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+}
 </style>

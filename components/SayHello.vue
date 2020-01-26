@@ -4,10 +4,10 @@
       <h2>Say Hello</h2>
       <br />
       <form
+        method="POST"
         action="/thanks/"
-        name="contact"
+        name="contact-us"
         style="color: white;"
-        netlify-honeypot="bot-field"
         data-netlify="true"
       >
         <p class="hidden">

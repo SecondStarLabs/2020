@@ -6124,7 +6124,7 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
-rss-parser@^3.6.2:
+rss-parser@^3.6.2, rss-parser@^3.7.3:
   version "3.7.3"
   resolved "https://registry.yarnpkg.com/rss-parser/-/rss-parser-3.7.3.tgz#961cd155ca26cb2ba8f52aa7f2321099b8b5ecf0"
   integrity sha512-Ys+fC5wHqWkfR+jNEL7QvC0crUCAcygxHel3ab9QQzHjmH7fNz379lrp984CuCPUf3WzxHEa73lL86W7yc9qjQ==

@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import VueRssFeed from "~/node_modules/vue-rss-feed/src/VueRssFeed.vue";
+import VueRssFeed from "~/components/VueRssFeed.vue";
 
 export default {
   name: "Demo",

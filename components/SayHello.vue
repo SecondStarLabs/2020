@@ -3,9 +3,15 @@
     <div class="formarea">
       <h2>Say Hello</h2>
       <br />
-      <form action="/thanks/" name="contact" style="color: white;" netlify>
+      <form
+        action="/thanks/"
+        name="contact"
+        style="color: white;"
+        netlify-honeypot="bot-field"
+        data-netlify="true"
+      >
         <p class="hidden">
-          <label style="color: white;">
+          <label>
             Don’t fill this out if you're human:
             <input name="bot-field" />
           </label>

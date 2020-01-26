@@ -3,13 +3,7 @@
     <div class="formarea">
       <h2>Say Hello</h2>
       <br />
-      <form
-        method="POST"
-        action="/thanks/"
-        name="contact-us"
-        style="color: white;"
-        data-netlify="true"
-      >
+      <form method="POST" name="contact-us" style="color: white;" data-netlify="true">
         <p class="hidden">
           <label>
             Don’t fill this out if you're human:

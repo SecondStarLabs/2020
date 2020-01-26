@@ -37,4 +37,23 @@ html {
   color: #eee;
   font-display: swap;
 }
+
+.logo {
+  text-transform: uppercase;
+  font-size: 25px;
+  display: inline;
+}
+
+.logo,
+h1,
+h2,
+h3,
+h4 {
+  font-family: Gotham XNarrow A, Gotham XNarrow B, -apple-system,
+    BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-style: normal;
+  color: #fff;
+}
 </style>

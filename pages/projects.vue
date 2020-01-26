@@ -43,6 +43,9 @@
       </div>
     </section>
     <section class="codepen">
+      
+      <codepen-listing />
+
       <h2>CodePen</h2>
       <div>
         <h3>React Animated Page Transitions</h3>
@@ -724,7 +727,10 @@
 </template>
 
 <script>
-export default {};
+import CodepenListing from "~/components/CodepenListing.vue"
+export default {
+  components: {CodepenListing}
+};
 </script>
 
 <style lang="scss" scoped>

@@ -10,8 +10,12 @@
         <a
           href="https://www.amazon.com/SVG-Animations-Implementations-Responsive-Animation-ebook-dp-B06XPVW2PP/dp/B06XPVW2PP/"
           target="_blank"
-        >SVG Animations from O’Reilly</a> and a staff writer for
-        <a href="https://css-tricks.com/" target="_blank">CSS-Tricks</a>. Sometimes I write for Smashing Magazine, Net Magazine, and others. My writing on this site is mostly personal.
+          >SVG Animations from O’Reilly</a
+        >
+        and a staff writer for
+        <a href="https://css-tricks.com/" target="_blank">CSS-Tricks</a>.
+        Sometimes I write for Smashing Magazine, Net Magazine, and others. My
+        writing on this site is mostly personal.
       </p>
     </div>
 
@@ -23,7 +27,8 @@
             <a
               href="https://css-tricks.com/how-to-turn-a-procreate-drawing-into-a-web-animation/"
               target="_blank"
-            >How to Turn a Procreate Drawing into a Web Animation</a>
+              >How to Turn a Procreate Drawing into a Web Animation</a
+            >
             <br />
             <small>published on Jan 20, 2020 on CSS Tricks</small>
           </li>
@@ -31,7 +36,8 @@
             <a
               href="https://css-tricks.com/how-to-animate-on-the-web-with-greensock/"
               target="_blank"
-            >How to Animate on the Web with GreenSock</a>
+              >How to Animate on the Web with GreenSock</a
+            >
             <br />
             <small>published on Jan 13, 2020 on CSS Tricks</small>
           </li>
@@ -75,8 +81,7 @@
             </h6>
             <a href="/blog/why-netlify" class>
               <button class="seepost">
-                see
-                post ⟶
+                see post ⟶
               </button>
             </a>
           </div>
@@ -102,7 +107,15 @@
 </template>
 
 <script>
-export default {};
+export default {
+  head() {
+    return {
+      script: [
+        { src: "https://identity.netlify.com/v1/netlify-identity-widget.js" }
+      ]
+    };
+  }
+};
 </script>
 
 <style lang="scss" scoped>

@@ -3,44 +3,6 @@
     <section class="projectheading">
       <h1>Projects</h1>
       <project-blurb />
-      <div class="projectblurb">
-        <p>
-          Follow me on&nbsp;
-          <a href="https://codepen.io/captproton/" name="codepen">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="15"
-              height="15"
-              viewBox="0 0 32 32"
-              aria-labelledby="codepen"
-              role="presentation"
-            >
-              <title id="codepen" lang="en">codepen</title>
-              <path
-                fill="currentColor"
-                d="M29.555 11.501l-14-9.333c-0.336-0.224-0.774-0.224-1.109 0l-14 9.333c-0.278 0.185-0.445 0.498-0.445 0.832v9.333c0 0.334 0.167 0.647 0.445 0.832l14 9.333c0.168 0.112 0.361 0.168 0.555 0.168s0.387-0.056 0.555-0.168l14-9.333c0.278-0.185 0.445-0.498 0.445-0.832v-9.333c0-0.334-0.167-0.647-0.445-0.832zM15 20.465l-5.197-3.465 5.197-3.465 5.197 3.465-5.197 3.465zM16 11.798v-6.93l11.197 7.465-5.197 3.465-6-4zM14 11.798l-6 4-5.197-3.465 11.197-7.465v6.93zM6.197 17l-4.197 2.798v-5.596l4.197 2.798zM8 18.202l6 4v6.93l-11.197-7.465 5.197-3.465zM16 22.202l6-4 5.197 3.465-11.197 7.465v-6.93zM23.803 17l4.197-2.798v5.596l-4.197-2.798z"
-              /></svg
-            >&nbsp;CodePen
-          </a>
-          <br />or&nbsp;
-          <a href="https://github.com/secondstarlabs" name="github">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="15"
-              height="15"
-              viewBox="0 0 32 32"
-              aria-labelledby="github"
-              role="presentation"
-            >
-              <title id="github" lang="en">github</title>
-              <path
-                fill="currentColor"
-                d="M16 0.395c-8.836 0-16 7.163-16 16 0 7.069 4.585 13.067 10.942 15.182 0.8 0.148 1.094-0.347 1.094-0.77 0-0.381-0.015-1.642-0.022-2.979-4.452 0.968-5.391-1.888-5.391-1.888-0.728-1.849-1.776-2.341-1.776-2.341-1.452-0.993 0.11-0.973 0.11-0.973 1.606 0.113 2.452 1.649 2.452 1.649 1.427 2.446 3.743 1.739 4.656 1.33 0.143-1.034 0.558-1.74 1.016-2.14-3.554-0.404-7.29-1.777-7.29-7.907 0-1.747 0.625-3.174 1.649-4.295-0.166-0.403-0.714-2.030 0.155-4.234 0 0 1.344-0.43 4.401 1.64 1.276-0.355 2.645-0.532 4.005-0.539 1.359 0.006 2.729 0.184 4.008 0.539 3.054-2.070 4.395-1.64 4.395-1.64 0.871 2.204 0.323 3.831 0.157 4.234 1.026 1.12 1.647 2.548 1.647 4.295 0 6.145-3.743 7.498-7.306 7.895 0.574 0.497 1.085 1.47 1.085 2.963 0 2.141-0.019 3.864-0.019 4.391 0 0.426 0.288 0.925 1.099 0.768 6.354-2.118 10.933-8.113 10.933-15.18 0-8.837-7.164-16-16-16z"
-              /></svg
-            >&nbsp;GitHub
-          </a>
-        </p>
-      </div>
     </section>
     <section class="codepen">
       <h2>CodePen</h2>
@@ -53,9 +15,7 @@
           <tr>
             <td>
               <h3>
-                <a href="https://github.com/sdras/animating-vue-workshop"
-                  >animating vue workshop</a
-                >
+                <a href="https://github.com/sdras/animating-vue-workshop">animating vue workshop</a>
                 <!---->
               </h3>
               <p>✩ 177</p>
@@ -65,12 +25,8 @@
           <tr>
             <td>
               <h3>
-                <a href="https://github.com/sdras/array-explorer"
-                  >array explorer</a
-                >
-                <a href="https://arrayexplorer.netlify.com/" target="_blank"
-                  >· Site</a
-                >
+                <a href="https://github.com/sdras/array-explorer">array explorer</a>
+                <a href="https://arrayexplorer.netlify.com/" target="_blank">· Site</a>
               </h3>
               <p>✩ 2085</p>
               <p>
@@ -82,9 +38,7 @@
           <tr>
             <td>
               <h3>
-                <a href="https://github.com/sdras/awesome-actions"
-                  >awesome actions</a
-                >
+                <a href="https://github.com/sdras/awesome-actions">awesome actions</a>
                 <!---->
               </h3>
               <p>✩ 7551</p>
@@ -94,9 +48,7 @@
           <tr>
             <td>
               <h3>
-                <a href="https://github.com/sdras/Benchmarking-Animations"
-                  >Benchmarking Animations</a
-                >
+                <a href="https://github.com/sdras/Benchmarking-Animations">Benchmarking Animations</a>
                 <!---->
               </h3>
               <p>✩ 5</p>
@@ -110,9 +62,7 @@
             <td>
               <h3>
                 <a href="https://github.com/sdras/cda-locale">cda locale</a>
-                <a href="https://cda-locale.netlify.com/" target="_blank"
-                  >· Site</a
-                >
+                <a href="https://cda-locale.netlify.com/" target="_blank">· Site</a>
               </h3>
               <p>✩ 97</p>
               <p>
@@ -134,12 +84,8 @@
           <tr>
             <td>
               <h3>
-                <a href="https://github.com/sdras/cssgridgenerator"
-                  >cssgridgenerator</a
-                >
-                <a href="https://cssgrid-generator.netlify.com/" target="_blank"
-                  >· Site</a
-                >
+                <a href="https://github.com/sdras/cssgridgenerator">cssgridgenerator</a>
+                <a href="https://cssgrid-generator.netlify.com/" target="_blank">· Site</a>
               </h3>
               <p>✩ 2710</p>
               <p>🧮Generate basic CSS Grid code to make dynamic layouts!</p>
@@ -148,9 +94,7 @@
           <tr>
             <td>
               <h3>
-                <a href="https://github.com/sdras/d3-example-ignitetour"
-                  >d3 example ignitetour</a
-                >
+                <a href="https://github.com/sdras/d3-example-ignitetour">d3 example ignitetour</a>
                 <!---->
               </h3>
               <p>✩ 19</p>
@@ -164,28 +108,21 @@
           <tr>
             <td>
               <h3>
-                <a href="https://github.com/sdras/data-in-motion"
-                  >data in motion</a
-                >
+                <a href="https://github.com/sdras/data-in-motion">data in motion</a>
                 <!---->
               </h3>
               <p>✩ 11</p>
-              <p>
-                My talk about the importance of animation in data visualizations
-              </p>
+              <p>My talk about the importance of animation in data visualizations</p>
             </td>
           </tr>
           <tr>
             <td>
               <h3>
-                <a href="https://github.com/sdras/design-for-developers"
-                  >design for developers</a
-                >
+                <a href="https://github.com/sdras/design-for-developers">design for developers</a>
                 <a
                   href="https://frontendmasters.com/courses/design-for-developers/"
                   target="_blank"
-                  >· Site</a
-                >
+                >· Site</a>
               </h3>
               <p>✩ 385</p>
               <p>Design for Developers Workshop</p>
@@ -206,8 +143,7 @@
               <h3>
                 <a
                   href="https://github.com/sdras/easiest-netlify-lambda-example"
-                  >easiest netlify lambda example</a
-                >
+                >easiest netlify lambda example</a>
                 <!---->
               </h3>
               <p>✩ 5</p>
@@ -217,12 +153,8 @@
           <tr>
             <td>
               <h3>
-                <a href="https://github.com/sdras/ecommerce-netlify"
-                  >ecommerce netlify</a
-                >
-                <a href="https://ecommerce-netlify.netlify.com/" target="_blank"
-                  >· Site</a
-                >
+                <a href="https://github.com/sdras/ecommerce-netlify">ecommerce netlify</a>
+                <a href="https://ecommerce-netlify.netlify.com/" target="_blank">· Site</a>
               </h3>
               <p>✩ 704</p>
               <p>
@@ -234,9 +166,7 @@
           <tr>
             <td>
               <h3>
-                <a href="https://github.com/sdras/example-azure-node"
-                  >example azure node</a
-                >
+                <a href="https://github.com/sdras/example-azure-node">example azure node</a>
                 <!---->
               </h3>
               <p>✩ 67</p>
@@ -246,14 +176,8 @@
           <tr>
             <td>
               <h3>
-                <a href="https://github.com/sdras/firefighter-demo"
-                  >firefighter demo</a
-                >
-                <a
-                  href="https://sdras.github.io/firefighter-demo/"
-                  target="_blank"
-                  >· Site</a
-                >
+                <a href="https://github.com/sdras/firefighter-demo">firefighter demo</a>
+                <a href="https://sdras.github.io/firefighter-demo/" target="_blank">· Site</a>
               </h3>
               <p>✩ 67</p>
               <p>
@@ -265,9 +189,9 @@
           <tr>
             <td>
               <h3>
-                <a href="https://github.com/sdras/frontendmasters-svganimation"
-                  >frontendmasters svganimation</a
-                >
+                <a
+                  href="https://github.com/sdras/frontendmasters-svganimation"
+                >frontendmasters svganimation</a>
                 <!---->
               </h3>
               <p>✩ 176</p>
@@ -281,9 +205,7 @@
                 <!---->
               </h3>
               <p>✩ 90</p>
-              <p>
-                A small, customizable youtube-like player for gsap timelines
-              </p>
+              <p>A small, customizable youtube-like player for gsap timelines</p>
             </td>
           </tr>
           <tr>
@@ -299,15 +221,11 @@
           <tr>
             <td>
               <h3>
-                <a href="https://github.com/sdras/JAMstack-Workshop"
-                  >JAMstack Workshop</a
-                >
+                <a href="https://github.com/sdras/JAMstack-Workshop">JAMstack Workshop</a>
                 <!---->
               </h3>
               <p>✩ 44</p>
-              <p>
-                Workshop materials for JAMstack workshop using Vue and Netlify.
-              </p>
+              <p>Workshop materials for JAMstack workshop using Vue and Netlify.</p>
             </td>
           </tr>
           <tr>
@@ -326,9 +244,7 @@
           <tr>
             <td>
               <h3>
-                <a href="https://github.com/sdras/livecode-svganimation"
-                  >livecode svganimation</a
-                >
+                <a href="https://github.com/sdras/livecode-svganimation">livecode svganimation</a>
                 <!---->
               </h3>
               <p>✩ 84</p>
@@ -343,9 +259,9 @@
           <tr>
             <td>
               <h3>
-                <a href="https://github.com/sdras/netlify-functions-example"
-                  >netlify functions example</a
-                >
+                <a
+                  href="https://github.com/sdras/netlify-functions-example"
+                >netlify functions example</a>
                 <!---->
               </h3>
               <p>✩ 35</p>
@@ -355,9 +271,7 @@
           <tr>
             <td>
               <h3>
-                <a href="https://github.com/sdras/night-owl-vscode-theme"
-                  >night owl vscode theme</a
-                >
+                <a href="https://github.com/sdras/night-owl-vscode-theme">night owl vscode theme</a>
                 <a href="https://aka.ms/nightowl" target="_blank">· Site</a>
               </h3>
               <p>✩ 1690</p>
@@ -380,12 +294,8 @@
           <tr>
             <td>
               <h3>
-                <a href="https://github.com/sdras/object-explorer"
-                  >object explorer</a
-                >
-                <a href="https://objectexplorer.netlify.com/" target="_blank"
-                  >· Site</a
-                >
+                <a href="https://github.com/sdras/object-explorer">object explorer</a>
+                <a href="https://objectexplorer.netlify.com/" target="_blank">· Site</a>
               </h3>
               <p>✩ 1285</p>
               <p>
@@ -397,9 +307,7 @@
           <tr>
             <td>
               <h3>
-                <a href="https://github.com/sdras/page-transitions-simple"
-                  >page transitions simple</a
-                >
+                <a href="https://github.com/sdras/page-transitions-simple">page transitions simple</a>
                 <!---->
               </h3>
               <p>✩ 135</p>
@@ -409,12 +317,10 @@
           <tr>
             <td>
               <h3>
-                <a href="https://github.com/sdras/page-transitions-travelapp"
-                  >page transitions travelapp</a
-                >
-                <a href="https://page-transitions.com/" target="_blank"
-                  >· Site</a
-                >
+                <a
+                  href="https://github.com/sdras/page-transitions-travelapp"
+                >page transitions travelapp</a>
+                <a href="https://page-transitions.com/" target="_blank">· Site</a>
               </h3>
               <p>✩ 1420</p>
               <p>Travel App, Native-like Page Transitions</p>
@@ -423,9 +329,7 @@
           <tr>
             <td>
               <h3>
-                <a href="https://github.com/sdras/perfmatters-demo"
-                  >perfmatters demo</a
-                >
+                <a href="https://github.com/sdras/perfmatters-demo">perfmatters demo</a>
                 <!---->
               </h3>
               <p>✩ 10</p>
@@ -435,14 +339,11 @@
           <tr>
             <td>
               <h3>
-                <a href="https://github.com/sdras/productive-twitter"
-                  >productive twitter</a
-                >
+                <a href="https://github.com/sdras/productive-twitter">productive twitter</a>
                 <a
                   href="https://chrome.google.com/webstore/detail/productive-twitter/elgfikcdihncknnnedljbbignlmnppii"
                   target="_blank"
-                  >· Site</a
-                >
+                >· Site</a>
               </h3>
               <p>✩ 100</p>
               <p>
@@ -454,14 +355,8 @@
           <tr>
             <td>
               <h3>
-                <a href="https://github.com/sdras/project-explorer"
-                  >project explorer</a
-                >
-                <a
-                  href="https://sdras.github.io/project-explorer-site/"
-                  target="_blank"
-                  >· Site</a
-                >
+                <a href="https://github.com/sdras/project-explorer">project explorer</a>
+                <a href="https://sdras.github.io/project-explorer-site/" target="_blank">· Site</a>
               </h3>
               <p>✩ 469</p>
               <p>
@@ -473,9 +368,7 @@
           <tr>
             <td>
               <h3>
-                <a href="https://github.com/sdras/react-aframe-demo1"
-                  >react aframe demo1</a
-                >
+                <a href="https://github.com/sdras/react-aframe-demo1">react aframe demo1</a>
                 <!---->
               </h3>
               <p>✩ 16</p>
@@ -485,12 +378,8 @@
           <tr>
             <td>
               <h3>
-                <a href="https://github.com/sdras/sample-stripe-handler"
-                  >sample stripe handler</a
-                >
-                <a href="https://shoppity.azurewebsites.net/" target="_blank"
-                  >· Site</a
-                >
+                <a href="https://github.com/sdras/sample-stripe-handler">sample stripe handler</a>
+                <a href="https://shoppity.azurewebsites.net/" target="_blank">· Site</a>
               </h3>
               <p>✩ 150</p>
               <p>
@@ -502,12 +391,8 @@
           <tr>
             <td>
               <h3>
-                <a href="https://github.com/sdras/sample-vue-shop"
-                  >sample vue shop</a
-                >
-                <a href="https://shoppity.azurewebsites.net/" target="_blank"
-                  >· Site</a
-                >
+                <a href="https://github.com/sdras/sample-vue-shop">sample vue shop</a>
+                <a href="https://shoppity.azurewebsites.net/" target="_blank">· Site</a>
               </h3>
               <p>✩ 1101</p>
               <p>
@@ -520,9 +405,7 @@
             <td>
               <h3>
                 <a href="https://github.com/sdras/smashing">smashing</a>
-                <a href="https://smashingtoronto.netlify.com/" target="_blank"
-                  >· Site</a
-                >
+                <a href="https://smashingtoronto.netlify.com/" target="_blank">· Site</a>
               </h3>
               <p>✩ 70</p>
               <p>
@@ -534,9 +417,7 @@
           <tr>
             <td>
               <h3>
-                <a href="https://github.com/sdras/smashing-template"
-                  >smashing template</a
-                >
+                <a href="https://github.com/sdras/smashing-template">smashing template</a>
                 <!---->
               </h3>
               <p>✩ 9</p>
@@ -550,8 +431,7 @@
                 <a
                   href="https://frontendmasters.com/courses/svg-essentials-animation/"
                   target="_blank"
-                  >· Site</a
-                >
+                >· Site</a>
               </h3>
               <p>✩ 385</p>
               <p>Materials for SVG Essentials &amp; Animation Course</p>
@@ -560,14 +440,8 @@
           <tr>
             <td>
               <h3>
-                <a href="https://github.com/sdras/three-vue-pattern"
-                  >three vue pattern</a
-                >
-                <a
-                  href="https://sdras.github.io/three-vue-pattern/"
-                  target="_blank"
-                  >· Site</a
-                >
+                <a href="https://github.com/sdras/three-vue-pattern">three vue pattern</a>
+                <a href="https://sdras.github.io/three-vue-pattern/" target="_blank">· Site</a>
               </h3>
               <p>✩ 90</p>
               <p>
@@ -579,9 +453,7 @@
           <tr>
             <td>
               <h3>
-                <a href="https://github.com/sdras/Transform_intro"
-                  >Transform_intro</a
-                >
+                <a href="https://github.com/sdras/Transform_intro">Transform_intro</a>
                 <!---->
               </h3>
               <p>✩ 4</p>
@@ -594,32 +466,18 @@
           <tr>
             <td>
               <h3>
-                <a href="https://github.com/sdras/vue-directory-tree"
-                  >vue directory tree</a
-                >
-                <a
-                  href="https://sdras.github.io/vue-directory-tree/"
-                  target="_blank"
-                  >· Site</a
-                >
+                <a href="https://github.com/sdras/vue-directory-tree">vue directory tree</a>
+                <a href="https://sdras.github.io/vue-directory-tree/" target="_blank">· Site</a>
               </h3>
               <p>✩ 151</p>
-              <p>
-                A visualization of relevant files for vue repo, along with notes
-              </p>
+              <p>A visualization of relevant files for vue repo, along with notes</p>
             </td>
           </tr>
           <tr>
             <td>
               <h3>
-                <a href="https://github.com/sdras/vue-hooks-foodapp"
-                  >vue hooks foodapp</a
-                >
-                <a
-                  href="https://sdras.github.io/vue-hooks-foodapp/"
-                  target="_blank"
-                  >· Site</a
-                >
+                <a href="https://github.com/sdras/vue-hooks-foodapp">vue hooks foodapp</a>
+                <a href="https://sdras.github.io/vue-hooks-foodapp/" target="_blank">· Site</a>
               </h3>
               <p>✩ 177</p>
               <p>
@@ -631,14 +489,8 @@
           <tr>
             <td>
               <h3>
-                <a href="https://github.com/sdras/vue-sample-svg-icons"
-                  >vue sample svg icons</a
-                >
-                <a
-                  href="https://sdras.github.io/vue-sample-svg-icons/"
-                  target="_blank"
-                  >· Site</a
-                >
+                <a href="https://github.com/sdras/vue-sample-svg-icons">vue sample svg icons</a>
+                <a href="https://sdras.github.io/vue-sample-svg-icons/" target="_blank">· Site</a>
               </h3>
               <p>✩ 271</p>
               <p>
@@ -650,9 +502,7 @@
           <tr>
             <td>
               <h3>
-                <a href="https://github.com/sdras/vue-sublime-snippets"
-                  >vue sublime snippets</a
-                >
+                <a href="https://github.com/sdras/vue-sublime-snippets">vue sublime snippets</a>
                 <!---->
               </h3>
               <p>✩ 143</p>
@@ -665,9 +515,7 @@
           <tr>
             <td>
               <h3>
-                <a href="https://github.com/sdras/vue-vscode-extensionpack"
-                  >vue vscode extensionpack</a
-                >
+                <a href="https://github.com/sdras/vue-vscode-extensionpack">vue vscode extensionpack</a>
                 <!---->
               </h3>
               <p>✩ 247</p>
@@ -680,14 +528,11 @@
           <tr>
             <td>
               <h3>
-                <a href="https://github.com/sdras/vue-vscode-snippets"
-                  >vue vscode snippets</a
-                >
+                <a href="https://github.com/sdras/vue-vscode-snippets">vue vscode snippets</a>
                 <a
                   href="https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets"
                   target="_blank"
-                  >· Site</a
-                >
+                >· Site</a>
               </h3>
               <p>✩ 876</p>
               <p>
@@ -699,9 +544,7 @@
           <tr>
             <td>
               <h3>
-                <a href="https://github.com/sdras/vue-weather-notifier"
-                  >vue weather notifier</a
-                >
+                <a href="https://github.com/sdras/vue-weather-notifier">vue weather notifier</a>
                 <!---->
               </h3>
               <p>✩ 170</p>
@@ -714,9 +557,7 @@
           <tr>
             <td>
               <h3>
-                <a href="https://github.com/sdras/vue-wine-label"
-                  >vue wine label</a
-                >
+                <a href="https://github.com/sdras/vue-wine-label">vue wine label</a>
                 <!---->
               </h3>
               <p>✩ 54</p>

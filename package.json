@@ -14,10 +14,13 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "lodash": "^4.17.15",
     "node-sass": "^4.8.3",
     "nuxt": "^1.0.0",
+    "rss-parser": "^3.7.3",
     "sass-loader": "^6.0.7",
     "style-loader": "^0.20.3",
+    "vue-rss-feed": "^0.2.4",
     "vuex": "^3.0.1"
   },
   "devDependencies": {

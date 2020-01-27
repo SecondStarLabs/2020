@@ -1,0 +1,131 @@
+<rss
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+xmlns:admin="http://webns.net/mvcb/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+version="2.0">
+
+  <channel>
+
+    <title>RSS Feed for Carl Tanner&#39;s secondstarlabs_pens collection on CodePen</title>
+    <link>https://codepen.io/collection/nergYk/</link>
+
+    <description/>
+
+    <dc:language>en</dc:language>
+
+    <dc:creator>nospam@codepen.io</dc:creator>
+
+    <dc:rights>Copyright 2020</dc:rights>
+
+      <dc:date>
+        2020-01-21T00:12:19-07:00
+      </dc:date>
+
+      <item>
+
+        <title>Horizontal Scrolling CSS Grid</title>
+
+        <link>https://codepen.io/captproton/pen/axKRgM</link>
+        <guid>https://codepen.io/captproton/pen/axKRgM</guid>
+
+        <dc:creator>Carl Tanner</dc:creator>
+
+        <description>
+          <![CDATA[
+          <p>
+            <a href="https://codepen.io/captproton/pen/axKRgM"><img width="1024" height="600" src="https://codepen.io/captproton/pen/axKRgM/image/large.png"></a>
+          </p>
+          <p>
+            <a href="https://codepen.io/captproton/pen/axKRgM">See the Code</a> -
+            <a href="https://codepen.io/captproton/full/axKRgM">See it Full Page</a> -
+            <a href="https://codepen.io/captproton/details/axKRgM">See Details</a>
+          </p>
+          <p>
+            Horizontally scrolling CSS Grid maintaining block order with a top-bottom, left to right placement.
+          </p>
+          <p><small>This Pen uses: HTML, CSS, JavaScript, and </small></p>
+          ]]>
+        </description>
+
+        <dc:subject>Horizontal Scrolling CSS Grid</dc:subject>
+
+        <dc:date>
+          2019-05-07T02:21:25-07:00
+        </dc:date>
+
+      </item>
+
+      <item>
+
+  <title>wdw02</title>
+
+  <link>https://codepen.io/captproton/pen/e5b67d6b8036e49606160e80640ab04b</link>
+  <guid>https://codepen.io/captproton/pen/e5b67d6b8036e49606160e80640ab04b</guid>
+
+  <dc:creator>Carl Tanner</dc:creator>
+
+  <description>
+    <![CDATA[
+    <p>
+      <a href="https://codepen.io/captproton/pen/e5b67d6b8036e49606160e80640ab04b"><img width="1024" height="600" src="https://codepen.io/captproton/pen/e5b67d6b8036e49606160e80640ab04b/image/large.png"></a>
+    </p>
+    <p>
+      <a href="https://codepen.io/captproton/pen/e5b67d6b8036e49606160e80640ab04b">See the Code</a> -
+      <a href="https://codepen.io/captproton/full/e5b67d6b8036e49606160e80640ab04b">See it Full Page</a> -
+      <a href="https://codepen.io/captproton/details/e5b67d6b8036e49606160e80640ab04b">See Details</a>
+    </p>
+    <p>
+      
+    </p>
+    <p><small>This Pen uses: HTML, SCSS, JavaScript, and </small></p>
+    ]]>
+  </description>
+
+  <dc:subject>wdw02</dc:subject>
+
+  <dc:date>
+    2020-01-20T03:24:26-07:00
+  </dc:date>
+
+</item>
+
+      <item>
+
+  <title>full-page animation</title>
+
+  <link>https://codepen.io/captproton/pen/GRgwGpY</link>
+  <guid>https://codepen.io/captproton/pen/GRgwGpY</guid>
+
+  <dc:creator>Carl Tanner</dc:creator>
+
+  <description>
+    <![CDATA[
+    <p>
+      <a href="https://codepen.io/captproton/pen/GRgwGpY"><img width="1024" height="600" src="https://codepen.io/captproton/pen/GRgwGpY/image/large.png"></a>
+    </p>
+    <p>
+      <a href="https://codepen.io/captproton/pen/GRgwGpY">See the Code</a> -
+      <a href="https://codepen.io/captproton/full/GRgwGpY">See it Full Page</a> -
+      <a href="https://codepen.io/captproton/details/GRgwGpY">See Details</a>
+    </p>
+    <p>
+      exercise based on DevEd https://www.youtube.com/watch?v=AKmoccuRiN4
+    </p>
+    <p><small>This Pen uses: HTML, CSS, JavaScript, and </small></p>
+    ]]>
+  </description>
+
+  <dc:subject>full-page animation</dc:subject>
+
+  <dc:date>
+    2020-01-21T00:12:19-07:00
+  </dc:date>
+
+</item>
+
+
+  </channel>
+
+</rss>

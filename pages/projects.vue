@@ -4,6 +4,7 @@
       <h1>Projects</h1>
       <project-blurb />
     </section>
+
     <section class="codepen">
       <h2>CodePen</h2>
       <codepen-listing />
@@ -15,10 +16,10 @@
           <tr class="repo">
             <td>
               <h3>
-                <a :href="repo.html_url" target="_blank">{{repo.name}}</a>
+                <a :href="repo.html_url" target="_blank">{{ repo.name }}</a>
               </h3>
-              <p>✩ {{repo.stargazers_count}}</p>
-              <p>{{repo.description}}</p>
+              <p>✩ {{ repo.stargazers_count }}</p>
+              <p>{{ repo.description }}</p>
             </td>
           </tr>
         </tbody>

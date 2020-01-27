@@ -1,12 +1,18 @@
 <template>
   <div class="article">
     <div class="title">
-      <a :href="article.link" target="_blank">
-        <h3>{{article.title}}</h3>
-      </a>
+      <h3>{{article.title}}</h3>
     </div>
     <div class="body">
-      <p class="content" v-html="article.content"></p>
+      <!-- <p class="content" v-html="article.content"></p> -->
+      <p>
+        <a :href="article.link" target="_blank" style="color: white">
+          <button>See pen ⟶</button>
+        </a>
+      </p>
+      <p>
+        <img class="codepen_image" :src="article.guid + '/image/small.png'" alt />
+      </p>
     </div>
     <div class="footer">
       <span class="hostname">{{this.getHostname()}}</span>
@@ -62,7 +68,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 h3 {
   margin: 0;
   padding: 0;
@@ -73,7 +79,6 @@ h3 {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -93,7 +98,77 @@ h3 {
   font-size: 12px;
   margin: 0 8px;
 }
-a {
-  color: #42b983;
+
+.content {
+  background: #777;
+}
+/* see pen button */
+
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+  -webkit-appearance: button;
+}
+
+button,
+label {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 13px;
+}
+button {
+  background: 0 0;
+  border: 1px solid #7f7ff8;
+  color: #7f7ff8;
+  border-radius: 1000px 1000px;
+  padding: 10px;
+  width: 100%;
+  font-family: Gotham XNarrow A, Gotham XNarrow B, -apple-system,
+    BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  cursor: pointer;
+  outline: 0;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button {
+  margin: 15px 0;
+  color: #ec633a;
+}
+button,
+button :hover {
+  border: 1px solid #ec633a;
+}
+button :hover {
+  background: #ec633a;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  line-height: 1.15;
+}
+
+a a,
+a:active,
+a:visited,
+p a,
+p a:active,
+p a:visited {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+}
+
+.codepen_image {
+  width: 100%;
 }
 </style>

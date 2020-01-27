@@ -43,198 +43,8 @@
       </div>
     </section>
     <section class="codepen">
-      
-      <codepen-listing />
-
       <h2>CodePen</h2>
-      <div>
-        <h3>React Animated Page Transitions</h3>
-        <p>Just a small demo to show a few page transitions in React. Using GreenSock and SVG.</p>
-        <a href="https://codepen.io/sdras/full/gWWQgb" target="_blank" style="color: white">
-          <button>See pen ⟶</button>
-        </a>
-        <iframe
-          scrolling="no"
-          title="React Animated Page Transitions"
-          src="//codepen.io/jfksdca/embed/gWWQgb/?height=400&amp;theme-id=22041&amp;default-tab=result"
-          allowtransparency="true"
-          allowfullscreen="allowfullscreen"
-          style="width: 100%;"
-          height="400"
-          frameborder="no"
-        >
-          See the Pen
-          <a
-            href="https://codepen.io/sdras/gWWQgb"
-            style="color: white"
-          >React Animated Page Transitions</a> by Sarah Drasner (
-          <a href="https://codepen.io/sdras" style="color: white">@sdras</a>)
-          on
-          <a href="https://codepen.io" style="color: white">CodePen</a>.
-        </iframe>
-      </div>
-      <div>
-        <h3>Vue-controlled Wall-E</h3>
-        <p>
-          I found this dribbble shot of Wall-E that I loved, and wanted to see if I could manipulate him with Vue bindings. https://dribbble.com/shots/2758895-Wall-e
-          Uses Vue, GreenSock, and SVG
-        </p>
-        <a href="https://codepen.io/sdras/full/YZBGNp" target="_blank" style="color: white">
-          <button>See pen ⟶</button>
-        </a>
-        <iframe
-          scrolling="no"
-          title="Vue-controlled Wall-E"
-          src="//codepen.io/jfksdca/embed/YZBGNp/?height=400&amp;theme-id=22041&amp;default-tab=result"
-          allowtransparency="true"
-          allowfullscreen="allowfullscreen"
-          style="width: 100%;"
-          height="400"
-          frameborder="no"
-        >
-          See the Pen
-          <a
-            href="https://codepen.io/sdras/YZBGNp"
-            style="color: white"
-          >Vue-controlled Wall-E</a> by Sarah Drasner (
-          <a href="https://codepen.io/sdras" style="color: white">@sdras</a>)
-          on
-          <a href="https://codepen.io" style="color: white">CodePen</a>.
-        </iframe>
-      </div>
-      <div>
-        <h3>Vue Time Comparison</h3>
-        <p>
-          Using the browser's native API for .toLocaleTimeString to get rid of libraries like moment.js for world time that respects daylight savings. Made with Vue, SVG, GreenSock, and 🤘🏼
-          The dial was built off of this dribbble shot with minor tweaks: https://dribbble.com/shots/2196737-Day-048-Speedometer and the graphic was a purchased game backround
-        </p>
-        <a href="https://codepen.io/sdras/full/RZGqxR" target="_blank" style="color: white">
-          <button>See pen ⟶</button>
-        </a>
-        <iframe
-          scrolling="no"
-          title="Vue Time Comparison"
-          src="//codepen.io/jfksdca/embed/RZGqxR/?height=400&amp;theme-id=22041&amp;default-tab=result"
-          allowtransparency="true"
-          allowfullscreen="allowfullscreen"
-          style="width: 100%;"
-          height="400"
-          frameborder="no"
-        >
-          See the Pen
-          <a
-            href="https://codepen.io/sdras/RZGqxR"
-            style="color: white"
-          >Vue Time Comparison</a> by Sarah Drasner (
-          <a href="https://codepen.io/sdras" style="color: white">@sdras</a>)
-          on
-          <a href="https://codepen.io" style="color: white">CodePen</a>.
-        </iframe>
-      </div>
-      <div>
-        <h3>JavaScript Array Explorer</h3>
-        <p>
-          When I was first learning array methods, I spent a lot of time digging through the docs to find the appropriate one, and I had to search one by one. I made this resource to help people find the correct array method a bit more naturally. You can narrow down what you want to do and explore until you find what's most useful to you.
-          All of the code is MIT open source and hosted on github if you'd like to see how this is made: https://github.com/sdras/array-explorer/.
-        </p>
-        <a href="https://codepen.io/sdras/full/gogVRX" target="_blank" style="color: white">
-          <button>See pen ⟶</button>
-        </a>
-        <iframe
-          scrolling="no"
-          title="JavaScript Array Explorer"
-          src="//codepen.io/jfksdca/embed/gogVRX/?height=400&amp;theme-id=22041&amp;default-tab=result"
-          allowtransparency="true"
-          allowfullscreen="allowfullscreen"
-          style="width: 100%;"
-          height="400"
-          frameborder="no"
-        >
-          See the Pen
-          <a
-            href="https://codepen.io/sdras/gogVRX"
-            style="color: white"
-          >JavaScript Array Explorer</a> by Sarah Drasner (
-          <a href="https://codepen.io/sdras" style="color: white">@sdras</a>)
-          on
-          <a href="https://codepen.io" style="color: white">CodePen</a>.
-        </iframe>
-      </div>
-      <div>
-        <h3>💥 Boom 💥</h3>
-        <p>What I think about when I think about nuclear power races</p>
-        <a href="https://codepen.io/sdras/full/VpYeNj" target="_blank" style="color: white">
-          <button>See pen ⟶</button>
-        </a>
-        <iframe
-          scrolling="no"
-          title="💥 Boom 💥"
-          src="//codepen.io/jfksdca/embed/VpYeNj/?height=400&amp;theme-id=22041&amp;default-tab=result"
-          allowtransparency="true"
-          allowfullscreen="allowfullscreen"
-          style="width: 100%;"
-          height="400"
-          frameborder="no"
-        >
-          See the Pen
-          <a href="https://codepen.io/sdras/VpYeNj" style="color: white">💥 Boom 💥</a> by Sarah Drasner (
-          <a href="https://codepen.io/sdras" style="color: white">@sdras</a>)
-          on
-          <a href="https://codepen.io" style="color: white">CodePen</a>.
-        </iframe>
-      </div>
-      <div>
-        <h3>Example Motion Design Docs</h3>
-        <p>Showing how motion design documentation can communicate branding and a direction for cohesive animation on a site. Illustrations by Kristen Kong.</p>
-        <a href="https://codepen.io/sdras/full/JbaGwg" target="_blank" style="color: white">
-          <button>See pen ⟶</button>
-        </a>
-        <iframe
-          scrolling="no"
-          title="Example Motion Design Docs"
-          src="//codepen.io/jfksdca/embed/JbaGwg/?height=400&amp;theme-id=22041&amp;default-tab=result"
-          allowtransparency="true"
-          allowfullscreen="allowfullscreen"
-          style="width: 100%;"
-          height="400"
-          frameborder="no"
-        >
-          See the Pen
-          <a
-            href="https://codepen.io/sdras/JbaGwg"
-            style="color: white"
-          >Example Motion Design Docs</a> by Sarah Drasner (
-          <a href="https://codepen.io/sdras" style="color: white">@sdras</a>)
-          on
-          <a href="https://codepen.io" style="color: white">CodePen</a>.
-        </iframe>
-      </div>
-      <div>
-        <h3>Dynamically Generated Alt Text</h3>
-        <p>I kept hearing about machine learning being used for evil and wanted to use it for something good. Social media posts typically don't have a way to enter alt text and the only users I see that reliably remember to add descriptions to the post are accessibility experts or blind people. Hopefully this allows good alt text to be a bit more ubiquitous. You can find more information on how Azure's Computer Vision API works, as well as how to use it in your own projects here: https://aka.ms/Uzrshc</p>
-        <a href="https://codepen.io/sdras/full/jawPGa" target="_blank" style="color: white">
-          <button>See pen ⟶</button>
-        </a>
-        <iframe
-          scrolling="no"
-          title="Dynamically Generated Alt Text"
-          src="//codepen.io/jfksdca/embed/jawPGa/?height=400&amp;theme-id=22041&amp;default-tab=result"
-          allowtransparency="true"
-          allowfullscreen="allowfullscreen"
-          style="width: 100%;"
-          height="400"
-          frameborder="no"
-        >
-          See the Pen
-          <a
-            href="https://codepen.io/sdras/jawPGa"
-            style="color: white"
-          >Dynamically Generated Alt Text</a> by Sarah Drasner (
-          <a href="https://codepen.io/sdras" style="color: white">@sdras</a>)
-          on
-          <a href="https://codepen.io" style="color: white">CodePen</a>.
-        </iframe>
-      </div>
+      <codepen-listing />
     </section>
     <section class="github">
       <h2>GitHub</h2>
@@ -727,9 +537,9 @@
 </template>
 
 <script>
-import CodepenListing from "~/components/CodepenListing.vue"
+import CodepenListing from "~/components/CodepenListing.vue";
 export default {
-  components: {CodepenListing}
+  components: { CodepenListing }
 };
 </script>
 
@@ -955,5 +765,9 @@ p a:visited {
   text-decoration: none;
   color: #fff;
   font-weight: 700;
+}
+
+img {
+  width: 100%;
 }
 </style>

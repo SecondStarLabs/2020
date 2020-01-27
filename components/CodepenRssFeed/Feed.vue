@@ -9,23 +9,23 @@
       <div class="bounce3"></div>
     </div>
     <div class="articles-container">
-      <Article
-        v-for="(article, index) of getArticles()"
+      <FeedArticle
+        v-for="(feedarticle, index) of getArticles()"
         v-bind:key="index"
-        v-bind:article="article"
+        v-bind:article="feedarticle"
       />
     </div>
   </div>
 </template>
 
 <script>
-import Article from "./Article.vue";
+import FeedArticle from "./FeedArticle.vue";
 import RSSParser from "rss-parser";
 
 export default {
   name: "Feed",
   components: {
-    Article
+    FeedArticle
   },
   props: {
     feedUrl: String,
@@ -101,9 +101,6 @@ h1 {
 .feed {
   text-align: left;
 }
-a {
-  color: #42b983;
-}
 /* CSS Spinner */
 .spinner {
   margin: 40px auto 0;
@@ -161,5 +158,9 @@ a {
     -webkit-transform: scale(1);
     transform: scale(1);
   }
+}
+
+img {
+  width: 100%;
 }
 </style>

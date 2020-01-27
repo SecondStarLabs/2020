@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h2>Fountain</h2>
     <VueRssFeed :feedUrl="feedUrl" :name="name" :limit="limit" />
   </div>
 </template>
@@ -15,7 +14,7 @@ export default {
   },
   data() {
     return {
-      feedUrl: "https://rss.app/feeds/hmsyAr3PyniBpmOd.xml",
+      feedUrl: "https://codepen.io/collection/nergYk/feed",
       name: "",
       limit: 5
     };
@@ -23,4 +22,9 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+p .content p a img {
+  width: 100%;
+  height: 100%;
+}
+</style>

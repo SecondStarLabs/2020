@@ -11,60 +11,14 @@
     <section class="github">
       <h2>GitHub</h2>
       <table>
-        <tbody>
-          <tr>
+        <tbody class="repos" v-for="repo in repos" :key="repo.id">
+          <tr class="repo">
             <td>
               <h3>
-                <a href="https://github.com/sdras/vue-vscode-extensionpack">vue vscode extensionpack</a>
-                <!---->
+                <a :href="repo.html_url" target="_blank">{{repo.name}}</a>
               </h3>
-              <p>✩ 247</p>
-              <p>
-                The extensions I use when developing a Vue application with VS
-                Code
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <h3>
-                <a href="https://github.com/sdras/vue-vscode-snippets">vue vscode snippets</a>
-                <a
-                  href="https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets"
-                  target="_blank"
-                >· Site</a>
-              </h3>
-              <p>✩ 876</p>
-              <p>
-                These snippets were built to supercharge my workflow in the most
-                seamless manner possible.
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <h3>
-                <a href="https://github.com/sdras/vue-weather-notifier">vue weather notifier</a>
-                <!---->
-              </h3>
-              <p>✩ 170</p>
-              <p>
-                A small SVG animation illustrating a weather app notification in
-                Vue
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <h3>
-                <a href="https://github.com/sdras/vue-wine-label">vue wine label</a>
-                <!---->
-              </h3>
-              <p>✩ 54</p>
-              <p>
-                A very silly demo showing how to make a wine label making
-                dashboard with Vue.js
-              </p>
+              <p>✩ {{repo.stargazers_count}}</p>
+              <p>{{repo.description}}</p>
             </td>
           </tr>
         </tbody>
@@ -76,7 +30,24 @@
 <script>
 import CodepenListing from "~/components/CodepenListing.vue";
 import ProjectBlurb from "~/components/ProjectBlurb.vue";
+
+import axios from "axios";
 export default {
+  fetch({ store }) {
+    return axios
+      .get("https://api.github.com/users/SecondStarLabs/repos")
+      .then(res => {
+        store.commit("githubRepos", res.data);
+      })
+      .catch(error => {
+        console.log(error);
+      });
+  },
+  computed: {
+    repos() {
+      return this.$store.state.repos;
+    }
+  },
   components: { CodepenListing, ProjectBlurb }
 };
 </script>

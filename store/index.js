@@ -1,16 +1,20 @@
-import Vuex from 'vuex'
+import Vuex from "vuex";
 
 const createStore = () => {
   return new Vuex.Store({
     state: {
-      page: 'index'
+      page: "index",
+      repos: []
     },
     mutations: {
       updatePage(state, pageName) {
-        state.page = pageName
+        state.page = pageName;
+      },
+      githubRepos(state, repos) {
+        state.repos = repos;
       }
     }
-  })
-}
+  });
+};
 
-export default createStore
+export default createStore;

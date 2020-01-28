@@ -33,18 +33,11 @@
             <br />
             <small>&nbsp;</small>
           </li>
-          <!--  -->
-          <li data-v-ba46290e>
-            <a
-              href="https://css-tricks.com/how-to-turn-a-procreate-drawing-into-a-web-animation/"
-              target="_blank"
-              data-v-ba46290e
-            >How to Turn a Procreate Drawing into a Web Animation</a>
-            <br data-v-ba46290e />
-            <small data-v-ba46290e>published on Jan 20, 2020 on CSS Tricks</small>
+          <li>
+            <a href="#">Nothing yet, stay tuned</a>
+            <br />
+            <small>&nbsp;</small>
           </li>
-
-          <!--  -->
         </ul>
       </div>
     </div>
@@ -75,7 +68,7 @@
       <span data-v-ba46290e>
         <div class="post" data-v-ba46290e>
           <div class="surface" data-v-ba46290e>
-            <h3 data-v-ba46290e>Why Netlify?</h3>
+            <h3 data-v-ba46290e>Nothing yet</h3>
             <p data-v-ba46290e>April 27th 2019</p>
             <h6 class="tag posttags" data-v-ba46290e>
               <span data-v-ba46290e>all posts</span>
@@ -90,88 +83,15 @@
         </div>
         <div class="post" data-v-ba46290e>
           <div class="surface" data-v-ba46290e>
-            <h3 data-v-ba46290e>Mourning as a Developer</h3>
-            <p data-v-ba46290e>August 14th 2018</p>
+            <h3 data-v-ba46290e>Nothing yet</h3>
+            <p data-v-ba46290e>April 27th 2019</p>
             <h6 class="tag posttags" data-v-ba46290e>
               <span data-v-ba46290e>all posts</span>
-            </h6>
-            <h6 class="tag posttags" data-v-ba46290e>
-              <span data-v-ba46290e>introspection</span>
-            </h6>
-            <a href="/blog/mourning-as-a-developer" data-v-ba46290e class>
-              <button class="seepost" data-v-ba46290e>see post ⟶</button>
-            </a>
-          </div>
-        </div>
-        <div class="post" data-v-ba46290e>
-          <div class="surface" data-v-ba46290e>
-            <h3 data-v-ba46290e>Reflections on 2018</h3>
-            <p data-v-ba46290e>December 23rd 2018</p>
-            <h6 class="tag posttags" data-v-ba46290e>
-              <span data-v-ba46290e>all posts</span>
-            </h6>
-            <h6 class="tag posttags" data-v-ba46290e>
-              <span data-v-ba46290e>year end review</span>
             </h6>
             <h6 class="tag posttags" data-v-ba46290e>
               <span data-v-ba46290e>life updates</span>
             </h6>
-            <a href="/blog/reflections-on-2018" data-v-ba46290e class>
-              <button class="seepost" data-v-ba46290e>see post ⟶</button>
-            </a>
-          </div>
-        </div>
-        <div class="post" data-v-ba46290e>
-          <div class="surface" data-v-ba46290e>
-            <h3 data-v-ba46290e>Feeling Happy at the End of the World</h3>
-            <p data-v-ba46290e>December 11th 2017</p>
-            <h6 class="tag posttags" data-v-ba46290e>
-              <span data-v-ba46290e>all posts</span>
-            </h6>
-            <h6 class="tag posttags" data-v-ba46290e>
-              <span data-v-ba46290e>year end review</span>
-            </h6>
-            <h6 class="tag posttags" data-v-ba46290e>
-              <span data-v-ba46290e>life updates</span>
-            </h6>
-            <a href="/blog/feeling-happy-at-the-end-of-the-world" data-v-ba46290e class>
-              <button class="seepost" data-v-ba46290e>see post ⟶</button>
-            </a>
-          </div>
-        </div>
-        <div class="post" data-v-ba46290e>
-          <div class="surface" data-v-ba46290e>
-            <h3 data-v-ba46290e>Responsive Animated Infographics</h3>
-            <p data-v-ba46290e>June 13th 2015</p>
-            <h6 class="tag posttags" data-v-ba46290e>
-              <span data-v-ba46290e>all posts</span>
-            </h6>
-            <h6 class="tag posttags" data-v-ba46290e>
-              <span data-v-ba46290e>SVG</span>
-            </h6>
-            <h6 class="tag posttags" data-v-ba46290e>
-              <span data-v-ba46290e>tutorial</span>
-            </h6>
-            <a
-              href="/blog/rethinking-information-presentation-responsive-animated-infographics"
-              data-v-ba46290e
-              class
-            >
-              <button class="seepost" data-v-ba46290e>see post ⟶</button>
-            </a>
-          </div>
-        </div>
-        <div class="post" data-v-ba46290e>
-          <div class="surface" data-v-ba46290e>
-            <h3 data-v-ba46290e>Thought Morphology</h3>
-            <p data-v-ba46290e>April 20th 2014</p>
-            <h6 class="tag posttags" data-v-ba46290e>
-              <span data-v-ba46290e>all posts</span>
-            </h6>
-            <h6 class="tag posttags" data-v-ba46290e>
-              <span data-v-ba46290e>introspection</span>
-            </h6>
-            <a href="/blog/thought-morphology" data-v-ba46290e class>
+            <a href="/blog/why-netlify" data-v-ba46290e class>
               <button class="seepost" data-v-ba46290e>see post ⟶</button>
             </a>
           </div>

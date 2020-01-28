@@ -35,9 +35,34 @@ module.exports = {
     middleware: "pages"
   },
   /*
+   ** generate the static files of the blog
+   */
+  generate: {
+    routes: function() {
+      const fs = require("fs");
+      return fs.readdirSync("./assets/content/blog").map(file => {
+        return {
+          route: `/blog/${file.slice(2, -5)}`,
+          payload: require(`./assets/content/blog/${file}`)
+        };
+      });
+    }
+  },
+  /*
    ** Customize the progress bar color
    */
   loading: { color: "#3B8070" },
+  /*
+   ** Nuxt.js dev-modules
+   */
+  buildModules: [],
+  /*
+   ** Nuxt.js modules
+   */
+  modules: ["@nuxtjs/markdownit"],
+  markdownit: {
+    injected: true
+  },
   /*
    ** Build configuration
    */

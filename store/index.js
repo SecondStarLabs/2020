@@ -4,7 +4,8 @@ const createStore = () => {
   return new Vuex.Store({
     state: {
       page: "index",
-      repos: []
+      repos: [],
+      blogPosts: []
     },
     mutations: {
       updatePage(state, pageName) {
@@ -12,6 +13,9 @@ const createStore = () => {
       },
       githubRepos(state, repos) {
         state.repos = repos;
+      },
+      setBlogPosts(state, list) {
+        state.blogPosts = list;
       }
     }
   });

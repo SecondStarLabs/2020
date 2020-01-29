@@ -37,13 +37,13 @@
     </div>
     <div class="labelnav">
       <WritingNavigation :navItems="pages" />
-      <div class="container__content">
+      <!-- <div class="container__content">
         <h1>Please select a page you wish to view</h1>
         <p>
           This is a website for demo purposes of using Nuxt & Contentful
           together
         </p>
-      </div>
+      </div> -->
       <ul style="list-style: none; opacity: 0">
         <li>&nbsp;</li>
       </ul>

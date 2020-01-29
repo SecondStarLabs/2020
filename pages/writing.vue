@@ -83,7 +83,7 @@
             </a>
           </div>
         </div>
-        <div class="post">
+        <!-- <div class="post">
           <div class="surface">
             <h3>Nothing yet</h3>
             <p>April 27th 2019</p>
@@ -97,7 +97,7 @@
               <button class="seepost">see post ⟶</button>
             </a>
           </div>
-        </div>
+        </div> -->
       </span>
     </div>
   </main>

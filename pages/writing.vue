@@ -65,39 +65,39 @@
       <div class="line" style="transform: translate3d(0px, 0px, 0px);"></div>
     </div>
 
-    <div class="blog" data-v-ba46290e>
-      <h2 data-v-ba46290e>On This Site</h2>
-      <span data-v-ba46290e>
-        <div class="post" data-v-ba46290e>
-          <div class="surface" data-v-ba46290e>
-            <h3 data-v-ba46290e>Nothing yet</h3>
-            <p data-v-ba46290e>April 27th 2019</p>
-            <h6 class="tag posttags" data-v-ba46290e>
-              <span data-v-ba46290e>all posts</span>
+    <div class="blog">
+      <h2>On This Site</h2>
+      <span>
+        <div class="post">
+          <div class="surface">
+            <h3>Fear</h3>
+            <p>April 18th 2018</p>
+            <h6 class="tag posttags">
+              <span>all posts</span>
             </h6>
-            <h6 class="tag posttags" data-v-ba46290e>
-              <span data-v-ba46290e>life updates</span>
+            <h6 class="tag posttags">
+              <span>life updates</span>
             </h6>
-            <a href="/blog/why-netlify" data-v-ba46290e class>
-              <button class="seepost" data-v-ba46290e>see post ⟶</button>
+            <a href="/blog/fear" class>
+              <button class="seepost">see post ⟶</button>
             </a>
           </div>
         </div>
-        <div class="post" data-v-ba46290e>
-          <div class="surface" data-v-ba46290e>
-            <h3 data-v-ba46290e>Nothing yet</h3>
-            <p data-v-ba46290e>April 27th 2019</p>
-            <h6 class="tag posttags" data-v-ba46290e>
-              <span data-v-ba46290e>all posts</span>
+        <!-- <div class="post">
+          <div class="surface">
+            <h3>Nothing yet</h3>
+            <p>April 27th 2019</p>
+            <h6 class="tag posttags">
+              <span>all posts</span>
             </h6>
-            <h6 class="tag posttags" data-v-ba46290e>
-              <span data-v-ba46290e>life updates</span>
+            <h6 class="tag posttags">
+              <span>life updates</span>
             </h6>
-            <a href="/blog/why-netlify" data-v-ba46290e class>
-              <button class="seepost" data-v-ba46290e>see post ⟶</button>
+            <a href="/blog/why-netlify" class>
+              <button class="seepost">see post ⟶</button>
             </a>
           </div>
-        </div>
+        </div> -->
       </span>
     </div>
   </main>
@@ -279,16 +279,14 @@ ul.site-links {
 .glitch:before {
   left: -1px;
   text-shadow: 4px 0 rgba(255, 0, 0, 0.7);
-  animation: glitch-loop-1-data-v-ba46290e 0.8s ease-in-out infinite
-    alternate-reverse;
+  animation: glitch-loop-1- 0.8s ease-in-out infinite alternate-reverse;
 }
 .glitch:after {
   left: 1px;
   text-shadow: -7px 0 rgba(0, 0, 255, 0.7);
-  animation: glitch-loop-2-data-v-ba46290e 1s ease-in-out infinite
-    alternate-reverse;
+  animation: glitch-loop-2- 1s ease-in-out infinite alternate-reverse;
 }
-@-webkit-keyframes glitch-loop-1-data-v-ba46290e {
+@-webkit-keyframes glitch-loop-1- {
   0% {
     clip: rect(36px, 9999px, 9px, 0);
   }
@@ -305,7 +303,7 @@ ul.site-links {
     clip: rect(100px, 9999px, 98px, 0);
   }
 }
-@keyframes glitch-loop-1-data-v-ba46290e {
+@keyframes glitch-loop-1- {
   0% {
     clip: rect(36px, 9999px, 9px, 0);
   }
@@ -322,7 +320,7 @@ ul.site-links {
     clip: rect(100px, 9999px, 98px, 0);
   }
 }
-@-webkit-keyframes glitch-loop-2-data-v-ba46290e {
+@-webkit-keyframes glitch-loop-2- {
   0% {
     top: -1px;
     left: 1px;
@@ -349,7 +347,7 @@ ul.site-links {
     clip: rect(31px, 9999px, 149px, 0);
   }
 }
-@keyframes glitch-loop-2-data-v-ba46290e {
+@keyframes glitch-loop-2- {
   0% {
     top: -1px;
     left: 1px;

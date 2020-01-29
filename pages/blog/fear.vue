@@ -4,7 +4,10 @@
       <h1>Fear</h1>
       <p style="margin-bottom: 35px;">Apr 18, 2018</p>
     </div>
-    <div class="bkimg" style="background: rgba(0, 0, 0, 0) url(&quot;/images/uploads/godzilla-toy.jpg&quot;) no-repeat scroll center center;" ></div>
+    <div
+      class="bkimg"
+      style='background: rgba(0, 0, 0, 0) url("/images/uploads/godzilla-toy.jpg") no-repeat scroll center center;'
+    ></div>
     <section>
       <blog-nav />
       <h6 class="tag posttags">
@@ -19,27 +22,62 @@
           id="a66c"
           class="hj hk dt ax hl b hm mj ho mk ml mm mn mo mp mq hw gm"
           data-selectable-paragraph
-        >Fear is an powerful, amazing thing. Sometimes it can push you forward, like the fear of failing. Once committed, no one desires to fail. Sometimes it can save you from harm, like the fear of being bitten. Many times though, it tells you to push the pause button. That you are not ready for the next step of something you want to do, something that would be awesome in your life. “No, don’t go talk to her right now, she could say something that would hurt you.” “Are you sure that you want to put your hand up? You could be called upon and be wrong and laughed at. You may fail.” “Are you certain about trying for that? You could fail.” While well-meaning, this little voice of doubt inside calling out from the reptilian brain can do more harm than good.</p>
+        >
+          Fear is an powerful, amazing thing. Sometimes it can push you forward,
+          like the fear of failing. Once committed, no one desires to fail.
+          Sometimes it can save you from harm, like the fear of being bitten.
+          Many times though, it tells you to push the pause button. That you are
+          not ready for the next step of something you want to do, something
+          that would be awesome in your life. “No, don’t go talk to her right
+          now, she could say something that would hurt you.” “Are you sure that
+          you want to put your hand up? You could be called upon and be wrong
+          and laughed at. You may fail.” “Are you certain about trying for that?
+          You could fail.” While well-meaning, this little voice of doubt inside
+          calling out from the reptilian brain can do more harm than good.
+        </p>
         <p
           id="5504"
           class="hj hk dt ax hl b hm mj ho mk ml mm mn mo mp mq hw gm"
           data-selectable-paragraph
-        >It steals away the courage to be great, to be remarkable. This is a true tragedy. It has a ripple effect. Someone gets a great idea on how to solve a problem, and feels the fear, the butterflies. If she went forward, she could be a hero. She could be a hero to the group that has the problem. She could be a hero to her family for creating a new opportunity if it’s work related. She could be a hero to herself for creating that great feeling everyone gets for being right about something important. Or she could hold back, and all that good vaporizes before it even has a chance to breathe. A true shame.</p>
+        >
+          It steals away the courage to be great, to be remarkable. This is a
+          true tragedy. It has a ripple effect. Someone gets a great idea on how
+          to solve a problem, and feels the fear, the butterflies. If she went
+          forward, she could be a hero. She could be a hero to the group that
+          has the problem. She could be a hero to her family for creating a new
+          opportunity if it’s work related. She could be a hero to herself for
+          creating that great feeling everyone gets for being right about
+          something important. Or she could hold back, and all that good
+          vaporizes before it even has a chance to breathe. A true shame.
+        </p>
         <p
           id="c684"
           class="hj hk dt ax hl b hm mj ho mk ml mm mn mo mp mq hw gm"
           data-selectable-paragraph
-        >Seth Godin in the book “Linchpin: Are You Indispensible?” puts it another way:</p>
+        >
+          Seth Godin in the book “Linchpin: Are You Indispensible?” puts it
+          another way:
+        </p>
         <p
           id="e73c"
           class="hj hk dt ax hl b hm mj ho mk ml mm mn mo mp mq hw gm"
           data-selectable-paragraph
-        >“Every day I meet people who have so much to give but have been bullied enough or frightened enough to hold it back. It’s time to stop complying with the system and draw your own map. You have brilliance in you, your contribution is essential, and the art you create is precious. Only you can do it, and you must.”</p>
+        >
+          “Every day I meet people who have so much to give but have been
+          bullied enough or frightened enough to hold it back. It’s time to stop
+          complying with the system and draw your own map. You have brilliance
+          in you, your contribution is essential, and the art you create is
+          precious. Only you can do it, and you must.”
+        </p>
         <p
           id="1b23"
           class="hj hk dt ax hl b hm mj ho mk ml mm mn mo mp mq hw gm"
           data-selectable-paragraph
-        >So today I say do what the great actors from the high school plays and Broadway do: feel the fear, feel the butterflies in your stomach and do it anyway.</p>
+        >
+          So today I say do what the great actors from the high school plays and
+          Broadway do: feel the fear, feel the butterflies in your stomach and
+          do it anyway.
+        </p>
         <!--  -->
       </article>
       <hr />
@@ -162,41 +200,7 @@ article p {
 article h2 {
   font-size: 40px;
 }
-.blognav {
-  position: -webkit-sticky;
-  position: -moz-sticky;
-  position: -ms-sticky;
-  position: -o-sticky;
-  position: sticky;
-  top: 0;
-  margin-top: -40px;
-  float: right;
-  z-index: 4000;
-  width: 250px;
-  padding: 50px 0;
-  border-left: 1px solid #ccc;
-}
-.blognav h4 {
-  color: #141618;
-  padding: 0 0 20px 20px;
-  font-size: 20px;
-}
-.blognav ul {
-  list-style: square;
-  line-height: 1;
-}
-.blognav ul li {
-  padding-bottom: 20px;
-}
-.blognav a {
-  color: #666;
-  font-weight: 400;
-  -webkit-transition: all 0.25s ease;
-  transition: all 0.25s ease;
-}
-.blognav a:hover {
-  color: #141618;
-}
+
 hr {
   border: 0;
   height: 1px;

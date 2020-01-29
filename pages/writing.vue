@@ -9,18 +9,12 @@
         Second Star Labs is the home for me, Carl Tanner. For more than five
         years, I have been freelance porgramming web-based applications for the
         web, mostly with
-        <a
-          href="https://rubyonrails.org/"
-        >Ruby on Rails</a>. Lately though, I
+        <a href="https://rubyonrails.org/">Ruby on Rails</a>. Lately though, I
         have dipping my toe into
-        <a
-          href="https://youtu.be/Y8PXMbr0Kqo"
-          target="_blank"
-        >JAMstack</a>
+        <a href="https://youtu.be/Y8PXMbr0Kqo" target="_blank">JAMstack</a>
         approaches with the
-        <a href="https://vuejs.org/">Vue</a> framework. To
-        make an app super-responsive, I sometimes layer Vue on top of Ruby on
-        Rails.
+        <a href="https://vuejs.org/">Vue</a> framework. To make an app
+        super-responsive, I sometimes layer Vue on top of Ruby on Rails.
       </p>
     </div>
 
@@ -42,6 +36,14 @@
       </div>
     </div>
     <div class="labelnav">
+      <WritingNavigation :navItems="pages" />
+      <div class="container__content">
+        <h1>Please select a page you wish to view</h1>
+        <p>
+          This is a website for demo purposes of using Nuxt & Contentful
+          together
+        </p>
+      </div>
       <ul style="list-style: none; opacity: 0">
         <li>&nbsp;</li>
       </ul>
@@ -102,13 +104,31 @@
 </template>
 
 <script>
+import WritingNavigation from "../components/WritingNavigation";
+import { createClient } from "../plugins/contentful";
+
+const contentfulClient = createClient();
+
 export default {
-  head() {
-    return {
-      script: [
-        { src: "https://identity.netlify.com/v1/netlify-identity-widget.js" }
-      ]
-    };
+  components: {
+    WritingNavigation
+  },
+  asyncData({ env }) {
+    return Promise.all([
+      // fetch all blog posts sorted by creation date
+      contentfulClient.getEntries({
+        content_type: "page",
+        order: "-sys.createdAt"
+      })
+    ])
+      .then(([pages]) => {
+        // return data that should be available
+        // in the template
+        return {
+          pages: pages.items
+        };
+      })
+      .catch(console.error);
   }
 };
 </script>

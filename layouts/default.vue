@@ -21,8 +21,8 @@ export default {
 
 <style>
 html {
-  font-family: Mercury Display A, Mercury Display B, -apple-system,
-    BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+  font-family: Lora, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;

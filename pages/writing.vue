@@ -219,7 +219,7 @@ main {
 }
 input,
 textarea {
-  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Lora, Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
   margin: 10px 0 20px;
   font-size: 15px;
   padding: 5px;
@@ -229,7 +229,7 @@ textarea {
   color: #fff;
 }
 label {
-  font-family: Segoe UI, Roboto, Helvetica Neue, -apple-system,
+  font-family: Lora, Segoe UI, Roboto, Helvetica Neue, -apple-system,
     BlinkMacSystemFont, Arial, sans-serif;
 }
 button,

@@ -93,8 +93,7 @@ html {
 section {
   width: 100vw;
   height: 700px;
-  background: url(https://sarahdrasnerdesign.com/france.svg) 50% no-repeat
-    #141618;
+  background: url(/images/uploads/golden_gate_bridge.svg) 50% no-repeat #141618;
   background-size: auto;
   background-size: cover;
   padding: 100px;

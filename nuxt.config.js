@@ -26,17 +26,7 @@ module.exports = {
       },
       {
         rel: "stylesheet",
-        href: "./fonts/leaguegothic.css"
-      },
-      {
-        rel: "preload",
-        as: "style",
-        href: "https://cloud.typography.com/7626114/6931412/css/fonts.css"
-      },
-      {
-        rel: "stylesheet",
-        type: "text/css",
-        href: "https://cloud.typography.com/7626114/6931412/css/fonts.css"
+        href: "https://www.secondstarlabs.com/fonts/leaguegothic.css"
       }
     ]
   },

@@ -9,9 +9,14 @@
         Second Star Labs is the home for me, Carl Tanner. For more than five
         years, I have been freelance porgramming web-based applications for the
         web, mostly with
-        <a href="https://rubyonrails.org/">Ruby on Rails</a>. Lately though, I
+        <a
+          href="https://rubyonrails.org/"
+        >Ruby on Rails</a>. Lately though, I
         have dipping my toe into
-        <a href="https://youtu.be/Y8PXMbr0Kqo" target="_blank">JAMstack</a>
+        <a
+          href="https://youtu.be/Y8PXMbr0Kqo"
+          target="_blank"
+        >JAMstack</a>
         approaches with the
         <a href="https://vuejs.org/">Vue</a> framework. To make an app
         super-responsive, I sometimes layer Vue on top of Ruby on Rails.
@@ -43,7 +48,7 @@
           This is a website for demo purposes of using Nuxt & Contentful
           together
         </p>
-      </div> -->
+      </div>-->
       <ul style="list-style: none; opacity: 0">
         <li>&nbsp;</li>
       </ul>
@@ -97,7 +102,7 @@
               <button class="seepost">see post ⟶</button>
             </a>
           </div>
-        </div> -->
+        </div>-->
       </span>
     </div>
   </main>
@@ -139,7 +144,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: Gotham XNarrow A, Gotham XNarrow B, -apple-system,
+  font-family: League Gothic, Gotham XNarrow A, Gotham XNarrow B, -apple-system,
     BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -158,7 +163,7 @@ code {
   border-radius: 6px;
 }
 .tag {
-  font-family: Gotham XNarrow A, Gotham XNarrow B, -apple-system,
+  font-family: League Gothic, Gotham XNarrow A, Gotham XNarrow B, -apple-system,
     BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -213,7 +218,7 @@ button {
   border-radius: 1000px 1000px;
   padding: 10px;
   width: 100%;
-  font-family: Gotham XNarrow A, Gotham XNarrow B, -apple-system,
+  font-family: League Gothic, Gotham XNarrow A, Gotham XNarrow B, -apple-system,
     BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
   -webkit-transition: all 0.25s ease;
   transition: all 0.25s ease;
@@ -244,7 +249,7 @@ button[type="submit"] {
   border: 0;
 }
 ul.site-links {
-  font-family: Gotham XNarrow A, Gotham XNarrow B, -apple-system,
+  font-family: League Gothic, Gotham XNarrow A, Gotham XNarrow B, -apple-system,
     BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
   font-weight: 500;
   padding-left: 0;

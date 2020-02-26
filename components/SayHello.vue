@@ -87,10 +87,13 @@ h4 {
   color: #fff;
 }
 
+// image  from https://www.pexels.com/
+// and JPNG https://codepen.io/shshaw/full/LVKEdv
+// converted to SVG to reduce resolution and to decrease size of background image
 section {
   width: 100vw;
   height: 700px;
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/572572/space-research-science-astronaut-41162.jpg)
+  background: url(/images/uploads/space-research-science-astronaut-41162.svg)
     50% no-repeat #141618;
   background-size: cover;
   background-position: 0% 0%;

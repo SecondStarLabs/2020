@@ -8,7 +8,7 @@
         width="100"
         height="100"
       />
-      <p>Carl Tanner has developed Ruby on Rails sites and web applications for more than 10 years. He leads a full life with his wife and two kids while working on various projects.</p>
+      <p>Carl Tanner is an award-winning speaker and has developed Ruby on Rails sites and web applications for more than five years. He leads a full life while working on various projects.</p>
 
       <div class="social-links">
         <a href="https://twitter.com/captproton" name="twitter">

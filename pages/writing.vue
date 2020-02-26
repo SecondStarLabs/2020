@@ -6,20 +6,13 @@
 
     <div class="blurb">
       <p>
-        Second Star Labs is the home for me, Carl Tanner. For more than five
-        years, I have been freelance porgramming web-based applications for the
+        For more than five
+        years, Carl Tanner has been freelance porgramming web-based applications for the
         web, mostly with
         <a
           href="https://rubyonrails.org/"
-        >Ruby on Rails</a>. Lately though, I
-        have been dipping my toe into
-        <a
-          href="https://youtu.be/Y8PXMbr0Kqo"
-          target="_blank"
-        >JAMstack</a>
-        approaches with the
-        <a href="https://vuejs.org/">Vue</a> framework. To make an app
-        super-responsive, I sometimes layer Vue on top of Ruby on Rails.
+        >Ruby on Rails</a>, but sometimes the
+        <a href="https://vuejs.org/">Vue</a> framework is mixed to improve interactivity.
       </p>
     </div>
 

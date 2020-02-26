@@ -12,7 +12,7 @@
         <a
           href="https://rubyonrails.org/"
         >Ruby on Rails</a>. Lately though, I
-        have dipping my toe into
+        have been dipping my toe into
         <a
           href="https://youtu.be/Y8PXMbr0Kqo"
           target="_blank"

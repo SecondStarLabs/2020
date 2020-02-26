@@ -49,8 +49,9 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: Gotham XNarrow A, Gotham XNarrow B, -apple-system,
-    BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+  font-family: League Gothic Condensed, Gotham XNarrow A, Gotham XNarrow B,
+    -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial,
+    sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-style: normal;

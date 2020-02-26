@@ -25,6 +25,10 @@ module.exports = {
         href: "https://fonts.googleapis.com/css?family=Lora"
       },
       {
+        rel: "stylesheet",
+        href: "./fonts/leaguegothic.css"
+      },
+      {
         rel: "preload",
         as: "style",
         href: "https://cloud.typography.com/7626114/6931412/css/fonts.css"

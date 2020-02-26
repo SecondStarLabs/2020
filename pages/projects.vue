@@ -115,8 +115,8 @@ button {
   border-radius: 1000px 1000px;
   padding: 10px;
   width: 100%;
-  font-family: Gotham XNarrow A, Gotham XNarrow B, -apple-system,
-    BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+  font-family: League Gothic, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Helvetica Neue, Arial, sans-serif;
   -webkit-transition: all 0.25s ease;
   transition: all 0.25s ease;
   cursor: pointer;
@@ -164,8 +164,8 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: Gotham XNarrow A, Gotham XNarrow B, -apple-system,
-    BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+  font-family: League Gothic, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Helvetica Neue, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-style: normal;

@@ -117,8 +117,8 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: Gotham XNarrow A, Gotham XNarrow B, -apple-system,
-    BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+  font-family: League Gothic, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Helvetica Neue, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-style: normal;
@@ -130,8 +130,8 @@ h2 {
 
 /*  */
 ul.site-links {
-  font-family: Gotham XNarrow A, Gotham XNarrow B, -apple-system,
-    BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+  font-family: League Gothic, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Helvetica Neue, Arial, sans-serif;
   font-weight: 500;
   padding-left: 0;
   list-style: none;
@@ -152,8 +152,8 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: Gotham XNarrow A, Gotham XNarrow B, -apple-system,
-    BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+  font-family: League Gothic, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Helvetica Neue, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-style: normal;

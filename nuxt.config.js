@@ -26,7 +26,7 @@ module.exports = {
       },
       {
         rel: "stylesheet",
-        href: "https://www.secondstarlabs.com/fonts/leaguegothic.css"
+        href: "/stylesheets/fonts.css"
       }
     ]
   },

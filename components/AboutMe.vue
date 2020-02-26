@@ -75,8 +75,8 @@ html {
 }
 
 html {
-  font-family: Mercury Display A, Mercury Display B, -apple-system,
-    BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+  font-family: Lora, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
   word-spacing: 1px;
@@ -105,8 +105,8 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: Gotham XNarrow A, Gotham XNarrow B, -apple-system,
-    BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+  font-family: League Gothic, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Helvetica Neue, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-style: normal;

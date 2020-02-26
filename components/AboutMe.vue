@@ -89,7 +89,8 @@ html {
   box-sizing: border-box;
   margin: 0;
 }
-
+// golden_gate_bridge.svg from https://www.pexels.com/photo/architecture-bridge-connection-dawn-417054/
+// and JPNG https://codepen.io/shshaw/full/LVKEdv
 section {
   width: 100vw;
   height: 700px;
